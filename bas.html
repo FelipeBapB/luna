@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS Reset -->
+
+    <link rel="stylesheet" href="../CSS/reset.css">
+
+    <!-- Meu CSS -->
+
+    <link rel="stylesheet" href="../CSS/learn.css">
+
+    <!-- API Google - Icons -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
+</head>
+
+<style>
+    body {
+        display: flex;
+    }
+
+    .a-box {
+        display: block;
+        position: relative;
+        top: 0;
+        margin: 30px;
+        z-index: 1;
+        height: fit-content;
+    }
+
+    .a-bt-rm {
+        position: absolute;
+        right: 15px;
+    }
+
+    .a-bt {
+        padding: 8px;
+    }
+
+    .toggle-o {
+        width: 38px;
+        height: 18px;
+        border: 1px solid darkgray;
+        border-radius: 50px;
+    }
+
+    .btt-t {
+        width: 16px;
+        height: 16px;
+        background: black;
+        border-radius: 50px;
+        margin: 1px;
+    }
+</style>
+
+<body>
+
+    <!-- Conta 1 -->
+
+    <div class="a-box cl-b_tc bs-b">
+
+        <div class="a-p-b">
+
+            <img src="../Images/haha.png" class="a-p-p" alt="">
+
+            <div class="a-i">
+
+                <div class="a-n">
+                    <span>Yuakira Lars</span>
+                </div>
+
+                <div class="a-s">
+                    <span>Online</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="hryl"></div> <!-- linha -->
+
+        <div class="a-bt">
+            <span class="material-icons-round">
+                feedback
+            </span>
+
+            <span class="c-b">Enviar feedback</span>
+        </div>
+
+        <div class="hryl"></div> <!-- linha -->
+
+        <div class="a-bt">
+            <span class="material-icons-round">
+                settings
+            </span>
+
+            <span class="c-b">Configurações</span>
+        </div>
+
+        <div class="a-bt">
+            <span class="material-icons-round">
+                language
+            </span>
+
+            <span class="c-b">Idioma</span>
+        </div>
+
+        <div id="mudarTema" class="a-bt">
+            <span class="material-icons-round">
+                dark_mode
+            </span>
+
+            <span class="c-b">Tema escuro</span>
+        </div>
+
+        <div class="hryl"></div> <!-- linha -->
+
+        <div class="a-bt">
+            <span class="material-icons-round">
+                logout
+            </span>
+
+            <span class="c-b">Sair</span>
+        </div>
+
+    </div>
+
+    <!-- Conta 2 -->
+
+    <div class="a-box cl-b_tc bs-b">
+
+        <!-- Conteudo Principal -->
+
+        <div class="b-ab">
+
+            <div class="a-p-b">
+
+                <img src="../Images/haha.png" class="a-p-p" alt="">
+
+                <div class="a-i">
+
+                    <div class="a-n">
+                        <span>Yuakira Lars</span>
+                    </div>
+
+                    <div class="a-s">
+                        <span>Online</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hryl"></div> <!-- linha -->
+
+            <div class="a-bt">
+
+                <span class="c-b">Online</span>
+
+                <div class="toggle-o a-bt-rm">
+                    <div class="btt-t"></div>
+                </div>
+
+            </div>
+
+            <div class="hryl"></div> <!-- linha -->
+
+            <div class="a-bt">
+                <span class="material-icons-round">
+                    settings
+                </span>
+
+                <span class="c-b">Configurações</span>
+
+                <span class="material-icons-round a-bt-rm">
+                    chevron_right
+                </span>
+            </div>
+
+            <div class="a-bt">
+                <span class="material-icons-round">
+                    dark_mode
+                </span>
+
+                <span class="c-b">Acessibilidade</span>
+
+                <span class="material-icons-round a-bt-rm">
+                    chevron_right
+                </span>
+            </div>
+
+            <div class="a-bt">
+                <span class="material-icons-round">
+                    help
+                </span>
+
+                <span class="c-b">Suporte</span>
+            </div>
+
+            <div class="hryl"></div> <!-- linha -->
+
+            <div class="a-bt">
+                <span class="material-icons-round">
+                    logout
+                </span>
+
+                <span class="c-b">Sair</span>
+            </div>
+
+        </div>
+
+        <!-- Conteudo Configurações -->
+
+        <div class="b-cb">
+
+            <div class="a-bt">
+
+                <span class="material-icons-round">
+                    chevron_left
+                </span>
+
+                <span class="c-b">Configurações</span>
+
+            </div>
+
+            <div class="hryl"></div> <!-- linha -->
+
+            <div class="a-bt">
+                <span class="material-icons-round">
+                    settings
+                </span>
+
+                <span class="c-b">Configurações</span>
+
+            </div>
+
+            <div class="a-bt">
+                <span class="material-icons-round">
+                    shield
+                </span>
+
+                <span class="c-b">Segurança</span>
+
+            </div>
+
+            <div class="a-bt">
+                <span class="material-icons-round">
+                    language
+                </span>
+
+                <span class="c-b">Idioma</span>
+            </div>
+
+        </div>
+
+        <!-- Conteudo Acessibilidade -->
+
+        <div class="b-ab">
+
+            <div class="a-bt">
+
+                <span class="material-icons-round">
+                    chevron_left
+                </span>
+
+                <span class="c-b">Acessibilidade</span>
+
+            </div>
+
+            <div class="hryl"></div> <!-- linha -->
+
+            <div id="mudarTema" class="a-bt">
+
+                <span class="material-icons-round">
+                    dark_mode
+                </span>
+
+                <span class="c-b">Modo escuro</span>
+
+                <div class="toggle-o a-bt-rm">
+                    <div class="btt-t"></div>
+                </div>
+
+            </div>
+
+            <div class="a-bt">
+                <span class="material-icons-round">
+                    view_compact
+                </span>
+
+                <span class="c-b">Modo compacto</span>
+
+                <div class="toggle-o a-bt-rm">
+                    <div class="btt-t"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
